@@ -192,8 +192,7 @@ body{padding-bottom:82px}
 /* Sélecteur de mode jour / semaine */
 .nc-mode-switch{display:flex;gap:8px}.nc-mode-btn{flex:1;opacity:.6}.nc-mode-btn.active{opacity:1;background:var(--nc-green,#1E3D2F);color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.16)}
 
-/* Marqueur de version (diagnostic déploiement) */
-#nc-version{position:fixed;left:8px;bottom:8px;z-index:9999;background:#1E3D2F;color:#fff;font:700 11px/1 system-ui,sans-serif;padding:5px 9px;border-radius:999px;opacity:.85;pointer-events:none}
+
 
 /* Coche sur les semaines écoulées */
 .pill.nc-elapsed::after{content:"\2713";display:inline-block;margin-left:6px;font-weight:900;font-size:.85em;color:#fff;background:#2E7D52;width:1.25em;height:1.25em;line-height:1.25em;text-align:center;border-radius:999px;vertical-align:middle}
@@ -309,4 +308,4 @@ body{padding-bottom:82px}
   initLocking(); initProfile(); initMeals(); initControls(); showWeek(Math.min(unlocked,1),false); var first=firstIncomplete(); if(first)setActiveDay(first);
 })();
 </script>
-<div id="nc-version">v7 — 24/06 17h35</div></body></html>
+</body></html>
